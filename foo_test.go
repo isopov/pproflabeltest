@@ -17,7 +17,7 @@ func TestFoo(t *testing.T) {
 	label := "whatdoyousay"
 	go func() {
 		pprof.Do(context.Background(), pprof.Labels(label, "hello"), func(ctx context.Context) {
-			//time.Sleep(time.Millisecond) //with this wait test passes even with --runs_per_test=10000
+			//time.Sleep(time.Millisecond) //with this wait test passes
 			start.Done()
 			end.Wait()
 		})
