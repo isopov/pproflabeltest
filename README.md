@@ -1,4 +1,6 @@
-To observe failing test run it with
+Unfortunately I have failed to reproduce this failure without bazel, but here is minimalistic test with bazel. I use bazelisk to run bazel and simply took latest bazel and rules_go versions.
+
+To observe failing test run it with:
 ```
 bazel test --runs_per_test=100 foo_test
 ```
