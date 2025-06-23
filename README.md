@@ -1,4 +1,4 @@
-Unfortunately I have failed to reproduce this failure without bazel, but here is minimalistic test with bazel. I use bazelisk to run bazel and simply took latest bazel and rules_go versions.
+Unfortunately I have failed to reproduce this failure without bazel (`go test -count=10000` passes without fails), but here is minimalistic test with bazel. I use bazelisk to run bazel and simply took latest bazel and rules_go versions.
 
 To observe failing test run it with:
 ```
