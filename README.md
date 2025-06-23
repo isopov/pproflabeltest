@@ -44,3 +44,4 @@ Executing tests from //:foo_test
         
 FAIL
 ```
+On my machine it fails all the time with 5-25 failures out of 100 runs.
